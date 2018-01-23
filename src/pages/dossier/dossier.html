@@ -1,0 +1,38 @@
+<!--
+  Generated template for the DossierPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title>Création d'une page</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-content>
+      <p>
+        <B>1. Générer le dossier et ses fichiers à l'aide de la console :</B><br/>
+        <mark><i>ionic g page nomPage</i></mark>
+      </p>
+      <p>
+        <b>2. Associer le nouveau dossier comme étant une page de l'application ionic :</b><br/>
+        Depuis la page <mark>src/app/app.module.ts</mark>, créer les imports et les association au même titre que pour "HomePage".
+      </p>
+    </ion-card-content>
+  </ion-card>
+      <ion-card>
+        <ion-card-content>
+          <p>Voir aussi :</p>
+          <button ion-button icon-left full [navPush]="navigationPage">Ajout d'un item au menu</button>
+        </ion-card-content>
+      </ion-card>
+</ion-content>

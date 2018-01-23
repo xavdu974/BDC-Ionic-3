@@ -1,0 +1,34 @@
+<!--
+  Generated template for the LienPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title>Création d'un lien</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-content>
+      <p>
+        <b>1 Créer notre balise dans la vue html et y insérer la propriété :</b><br>
+        <mark>[navPush]="maPage"</mark>
+      </p>
+      <p>
+        <b>2 Depuis le contrôleur, insérer la référence dans \"class\" :</b><br>
+        <mark>maPage = MaPage</mark><br>
+        <i>L'import de la page doit se créer automatiquement.</i>
+      </p>
+      <button ion-button primary [navPush]="homePage">Test</button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

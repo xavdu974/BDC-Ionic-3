@@ -1,0 +1,44 @@
+<!--
+  Generated template for the DemarragePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Bien démarrer</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-card>
+        <ion-card-content>
+          <p>Démarrer un projet</p>
+          <button ion-button icon-left full [navPush]="projetPage">Nouveau projet</button>
+        </ion-card-content>
+      </ion-card>
+      <ion-card>
+        <ion-card-content>
+          <p>Créer une nouvelle page</p>
+          <button ion-button icon-left full [navPush]="dossierPage">Nouvelle page</button>
+          </ion-card-content>
+      </ion-card>
+      <ion-card>
+        <ion-card-content>
+          <p>Passer de pages en pages</p>
+          <button ion-button icon-left full [navPush]="lienPage">Les liens</button>
+        </ion-card-content>
+      </ion-card>
+      <ion-card>
+        <ion-card-content>
+          <p>Tester l'application</p>
+          <button ion-button icon-left full [navPush]="testPage">Test et déploiement</button>
+        </ion-card-content>
+      </ion-card>
+</ion-content>
